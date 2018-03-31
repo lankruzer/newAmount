@@ -15,31 +15,68 @@
 	outline: none
 	transition: .25s
 	cursor: pointer
+
 	&:hover
 		text-decoration: none
 		background-color: #fee57e
 		box-shadow: 0 0 5px 1px #cacaca, inset 0 -30px 1px 0px #fdd42e
 		transform: scale(1.01)
+
 	&.btn_big
 		padding: 18px
 		font-size: 22px
 		line-height: 22px
+
+	&.btn_small
+		padding: 10px 2px
+		font-size: 13px
+		line-height: 13px
+		border-width: 1px
+
+		&:hover
+			transform: scale(1.05)
+
 	&.btn_yellow
 		background-color: #fee57e
 		box-shadow: 0 0 5px 1px #cacaca, inset 0 -30px 1px 0px #fdd42e
+
 		&:hover
 			color: #fff
 			background-color: #5cbd89
 			box-shadow: 0 0 5px 1px #cacaca, inset 0 -31px 1px 0px #009846
+
 	&.btn_orange
 		color: #fff
 		background-color: #fcc98b
 		box-shadow: 0 0 5px 1px #cacaca, inset 0 -30px 1px 0px #f08143
+
 		&.btn_big
 			box-shadow: 0 0 5px 1px #cacaca, inset 0 -45px 1px 0px #f08143
+
+	&.btn_light-blue
+		color: #fff
+		background-color: #8dd9f6
+		box-shadow: 0 0 5px 1px #cacaca, inset 0 -31px 1px 0px #4ac2f0
+
+	&.btn_purple
+		color: #fff
+		background-color: #ae94c3
+		box-shadow: 0 0 5px 1px #cacaca, inset 0 -31px 1px 0px #7b519d
+
+	&.btn_green
+		color: #fff
+		background-color: #76d083
+		box-shadow: 0 0 5px 1px #cacaca, inset 0 -31px 1px 0px #2cb640
+
+	&.btn_red
+		color: #fff
+		background-color: #ec7175
+		box-shadow: 0 0 5px 1px #cacaca, inset 0 -45px 1px 0px #cc1c26
+
 	&.btn_icon
 		position: relative
 		padding: 12px 15px 12px 40px
+
 		&::before
 			content: ''
 			position: absolute
@@ -48,11 +85,9 @@
 			width: 28px
 			height: 28px
 			background: #fff url("../img/icon-phone.png") center no-repeat
-			background-size: 80%
+			background-size: 60%
 			border-radius: 50%
 			transform: translateY(-50%)
-
-
 
 +media-breakpoint-down(lg)
 	.btn
@@ -78,6 +113,9 @@
 				box-shadow: 0 0 5px 1px #cacaca, inset 0 -27px 1px 0px #009846
 
 		&.btn_big
-			padding: 10px
+			padding: 15px
 			font-size: 18px
 			line-height: 18px
+
+		&.btn_small
+			font-size: 12px
