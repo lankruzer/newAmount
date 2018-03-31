@@ -15,8 +15,8 @@
 	
 	<!-- Template Basic Images Start -->
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="icon" href="img/favicon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" href="img/favicon/ic1.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/ic1.png">
 	<!-- Template Basic Images End -->
 	
 	<!-- Custom Browsers Color Start -->
@@ -50,7 +50,7 @@
 					<div class="row align-items-center">
 						<a href="tel:80296676003" class="col-12 col-sm-6 col-lg-12 link header-contacts__link">8 (029) 667 60 03</a>
 						<div class="col-12 col-sm-6 col-lg-12">
-							<a href="#" class="btn btn__yellow open-popup-call">Бесплатный звонок</a>
+							<a href="#" class="btn btn__yellow popup-call-js">Бесплатный звонок</a>
 						</div>
 						<p class="col-12 col-sm-6 col-lg-12 header-contacts__p">Время работы: пн-сб 8:30-21:00</p>
 						<p class="col-12 col-sm-6 col-lg-12 header-contacts__p">Почта для отправки реквизитов: <a href="mailto:info@amount.by">info@amount.by</a>
@@ -76,6 +76,22 @@
 
 
 	</div>
+
+	<!-- Popup's -->
+	<div class="overlay">
+		<div class="overlay__content">
+			<form class="popup-form popup-form__call" action="#" method="post">
+				<button class="popup-form__close" type="button">Close</button>
+				<div class="popup-form__title">Оставьте свои данные, и мы Вам перезвоним</div>
+				<input class="popup-form__input" type="text" name="name" placeholder="Введите имя*" required>
+				<input class="popup-form__input" type="tel" name="tel" placeholder="Введите телефон*" required>
+				<textarea class="popup-form__input popup-form__textarea" name="message" placeholder="Введите сообщение"></textarea>
+				<button class="popup-form__btn btn btn_big btn_dark-green">Заказать звонок</button>
+			</form>
+		</div>
+	</div>
+	<!-- !Popup's -->
+
 
 	<script src="js/scripts.min.js"></script>
 
