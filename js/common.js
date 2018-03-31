@@ -2,6 +2,18 @@ $(function() {
 
 	// Custom JS
 
+	//masked input init
+	$( "input[type = 'tel'] " ).mask('+375 (99) 999-99-99');
+
+	// open popup providers
+	$( '.popup-providers-js' ).click(function(event) {
+		event.preventDefault();
+		$( '.overlay' ).addClass( 'overlay_active' );
+		$( 'body' ).toggleClass( 'hide-scroll' );
+		$( '.popup-form__providers' ).addClass( 'popup-form_active' );
+	} );
+	// / open popup providers
+
 	// open popup call
 	$( '.popup-call-js' ).click(function(event) {
 		event.preventDefault();
