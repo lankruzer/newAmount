@@ -1,0 +1,45 @@
+.btn
+	position: relative
+	display: inline-block
+	vertical-align: middle
+	padding: 12px 15px 12px 40px
+	box-sizing: border-box
+	font-size: 18px
+	line-height: 18px
+	font-weight: 700
+	text-decoration: none
+	color: #000
+	background-color: rgba(253, 212, 46, 0.55)
+	border: 2px solid #fff
+	border-radius: 5px
+	box-shadow: 0 0 5px 1px #cacaca, inset 0 -30px 1px 0px #fdd42e
+	transition: .5s
+	&:hover
+		color: #fff
+		text-decoration: none
+		box-shadow: 0 0 5px 1px #cacaca, inset 0 -32px 1px 0px #009846
+		background-color: rgba(0, 152, 70, 0.55)
+		transform: scale(1.05)
+	&::before
+		content: ''
+		position: absolute
+		top: 50%
+		left: 6px
+		width: 28px
+		height: 28px
+		background: #fff url("../img/icon-phone.png") center no-repeat
+		background-size: 80%
+		border-radius: 50%
+		transform: translateY(-50%)
+
++media-breakpoint-down(lg)
+	.btn
+		padding: 8px 10px 8px 35px
+		font-size: 16px
+		line-height: 16px
+		box-shadow: 0 0 5px 1px #cacaca, inset 0 -25px 1px 0px #fdd42e
+		&:hover
+			box-shadow: 0 0 5px 1px #cacaca, inset 0 -27px 1px 0px #009846
+		&::before
+			width: 22px
+			height: 22px
