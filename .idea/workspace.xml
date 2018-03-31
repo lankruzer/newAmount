@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb3bd556-d405-44db-929c-59b4f66dc128" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/sass/block/_fixed-phone.sass" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="$PROJECT_DIR$/css/main.min.css" />
       <change beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon-180x180.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/icon-phone.png" afterPath="$PROJECT_DIR$/img/icon-phone.png" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.min.js" afterPath="$PROJECT_DIR$/js/scripts.min.js" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.min.js.map" afterPath="$PROJECT_DIR$/js/scripts.min.js.map" />
-      <change beforePath="$PROJECT_DIR$/sass/block/_buttons.sass" afterPath="$PROJECT_DIR$/sass/block/_buttons.sass" />
-      <change beforePath="$PROJECT_DIR$/sass/block/_popup's.sass" afterPath="$PROJECT_DIR$/sass/block/_popup's.sass" />
-      <change beforePath="$PROJECT_DIR$/sass/block/_screen-1.sass" afterPath="$PROJECT_DIR$/sass/block/_screen-1.sass" />
       <change beforePath="$PROJECT_DIR$/sass/main.sass" afterPath="$PROJECT_DIR$/sass/main.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,27 +26,17 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="121" column="64" lean-forward="true" selection-start-line="121" selection-start-column="64" selection-end-line="121" selection-end-column="64" />
+              <caret line="80" column="67" lean-forward="false" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_popup's.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/block/_popup's.sass">
+      <file leaf-file-name="_fixed-phone.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/block/_fixed-phone.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="145" column="12" lean-forward="true" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_media.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_media.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="322">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -61,8 +45,8 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="317">
+              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -71,18 +55,18 @@
       <file leaf-file-name="_header.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/block/_header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="41">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_buttons.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_buttons.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/block/_buttons.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+            <state relative-caret-position="294">
+              <caret line="77" column="78" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -110,10 +94,11 @@
         <option value="$PROJECT_DIR$/sass/block/_header.sass" />
         <option value="$PROJECT_DIR$/sass/block/_screen-1.sass" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/sass/main.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/block/_popup's.sass" />
         <option value="$PROJECT_DIR$/sass/block/_buttons.sass" />
+        <option value="$PROJECT_DIR$/sass/main.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/block/_fixed-phone.sass" />
       </list>
     </option>
   </component>
@@ -213,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522474958009</updated>
-      <workItem from="1522474962356" duration="20738000" />
+      <workItem from="1522474962356" duration="22360000" />
     </task>
     <task id="LOCAL-00001" summary="header complete">
       <created>1522492569826</created>
@@ -222,11 +207,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522492569827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="popup's complete">
+      <created>1522507647165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522507647165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20738000" />
+    <option name="totallyTimeSpent" value="22360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1040" height="744" extended-state="6" />
@@ -259,7 +251,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="header complete" />
+    <MESSAGE value="popup's complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="popup's complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -356,42 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/block/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="85" column="30" lean-forward="false" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="121" column="64" lean-forward="true" selection-start-line="121" selection-start-column="64" selection-end-line="121" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -404,10 +365,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/block/_buttons.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        <state relative-caret-position="294">
+          <caret line="77" column="78" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="80" column="67" lean-forward="false" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/block/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/block/_fixed-phone.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
