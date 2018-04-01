@@ -1,0 +1,133 @@
+/* screen-2 */
+.screen-2
+	position: relative
+	padding: 50px 0
+	background: #fff url("../img/screen-2-bg-car.jpg") left bottom no-repeat
+	background-size: auto 100%
+	overflow: hidden
+
+	&::after
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(235, 236, 236, 0.3))
+
+	.container
+		position: relative
+		z-index: 10
+
+	.img-absolute
+		position: absolute
+
+		&_left
+			top: 75px
+			left: 0
+			width: 250px
+			height: auto
+
+		&_right
+			bottom: 0px
+			right: 0
+			width: 300px
+			height: auto
+
+	&__ul
+		margin: 0
+		padding: 0
+		list-style: none
+
+	&-ul
+		&__li
+			margin-bottom: 30px
+			font-size: 19px
+			line-height: 24px
+			font-weight: 700
+			color: #074742
+
+		&__img
+			display: flex
+			align-items: center
+			margin-right: 15px
+			width: 60px
+			img
+				display: block
+				width: 100%
+				height: auto
+
+		&__content
+			width: calc(100% - 50px - 15px)
+
+.h2
+	margin: 0 auto 40px
+	text-align: center
+	font-size: 32px
+	line-height: 40px
+	font-weight: 700
+
+	&__upper
+		text-transform: uppercase
+
+	&__blue
+		color: #0f5b83
+
++media-breakpoint-down(xl)
+	.screen-2
+		background-position: -100px
+
++media-breakpoint-down(lg)
+	.screen-2
+		background-position: -200px
+
+		.img-absolute
+			&_left
+				width: 200px
+			&_right
+				width: 250px
+
++media-breakpoint-down(md)
+	.h2
+		font-size: 26px
+		line-height: 30px
+
+	.screen-2
+		&-ul
+			&__li
+				margin-bottom: 20px
+				font-size: 18px
+				line-height: 22px
+
+			&__img
+				width: 45px
+
+		.img-absolute
+			&_left
+				width: 150px
+			&_right
+				width: 160px
+
++media-breakpoint-down(sm)
+	.h2
+		margin-bottom: 30px
+		font-size: 22px
+		line-height: 26px
+
+	.screen-2
+		background-position: -300px
+
++media-breakpoint-down(xs)
+	.h2
+		font-size: 19px
+		line-height: 23px
+
+	.screen-2
+		&-ul
+			&__li
+				font-size: 16px
+				line-height: 20px
+
+			&__img
+				margin-right: 10px
+				width: 40px
