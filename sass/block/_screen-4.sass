@@ -1,0 +1,155 @@
+/* screen-4 */
+.screen-4
+	padding: 0 0 10px
+	background: #fff url("../img/screen-4-bg.jpg") center no-repeat
+	background-size: cover
+
+	.h2
+		position: relative
+		margin-bottom: 0
+		padding: 20px 0
+		color: #fff
+		background-color: #1c426b
+		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4)
+		.container
+			display: block
+
+.tabs
+	padding-top: 10px
+	padding-bottom: 10px
+	background-color: #F9F9F9
+
+.tabs-nav
+	margin-top: 10px
+	margin-bottom: 10px
+	padding: 0
+	list-style: none
+
+	&__li
+		text-align: center
+
+		.btn
+			display: block
+			width: 100%
+
+		&_active
+			.btn
+				color: #000
+				background-color: #fee57e
+				box-shadow: 0 0 5px 1px #cacaca, inset 0 -30px 1px 0px #fdd42e
+
+.tabs-content
+	margin: 0
+	padding: 10px 0
+	list-style: none
+	color: #000000
+	border-top: 2px dashed #BFC0C0
+	border-bottom: 2px dashed #BFC0C0
+
+	&__tab
+		display: none
+
+		&:first-of-type
+			background: transparent url("../img/screen-4-car-1.png") center no-repeat
+
+		&:nth-of-type(2)
+			background: transparent url("../img/screen-4-car-2.png") center no-repeat
+
+		&:nth-of-type(3)
+			background: transparent url("../img/screen-4-car-3.png") center no-repeat
+
+		&_active
+			display: block
+
+.content
+	text-align: left
+
+	&:nth-of-type(2n)
+		text-align: right
+
+	&-title
+		position: relative
+
+		&__img
+			display: flex
+			justify-content: center
+			align-items: center
+			padding: 10px
+			width: 160px
+			height: 160px
+			box-sizing: border-box
+			background-color: #fff
+			border: 5px solid red
+			border-radius: 50%
+			overflow: hidden
+
+			img
+				display: inline-block
+				max-width: 100%
+				max-height: 100%
+
+		&__h2
+			background-color: red
+			transform: skewX(20deg)
+
+.h2__skew
+	display: block
+	transform: skewX(-20deg)
+
+
+
+.content
+	&:nth-of-type(1),
+	&:nth-of-type(2)
+		margin-bottom: 50px
+
+	&_brakes
+		.content-title
+
+			&__img
+				float: left
+				margin: 0 20px 20px 0
+				border-color: #208ec8
+
+			&__h2
+				padding-left: 100px
+
+
+
+	&_engine
+		.content-title
+
+			&__img
+				float: right
+				margin: 0 0 20px 20px
+				border-color: #0ca3a0
+
+			&__h2
+				padding-right: 100px
+
+	&_suspension
+		.content-title
+
+			&__img
+				float: left
+				margin: 0 20px 20px 0
+				border-color: #208ec8
+
+			&__h2
+				padding-left: 100px
+
+	&_transmission
+		.content-title
+
+			&__img
+				float: right
+				margin: 0 0 20px 20px
+				border-color: #fdd42e
+
+			&__h2
+				padding-right: 100px
+
+	&-list
+		margin: 0
+		padding: 0
+		list-style: none
