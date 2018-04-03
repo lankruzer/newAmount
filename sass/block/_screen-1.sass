@@ -1,18 +1,29 @@
 /* screen-1 */
 .screen-1
-	padding: 40px 0
+	display: flex
+	align-items: center
+	padding: 5px 0 20px
+	min-height: calc(100vh - 123px)
+	max-height: 853px
 	background: #7EA3B2 url("../img/screen-1-bg.jpg") center
 	background-size: cover
 
 	&__content
-		margin: 0 auto 20px
+		margin: 0 auto 60px
 
-		.border__content
-			padding-bottom: 10px
+		.border
+			box-shadow: none
+			padding: 8px
+
+			&__content
+				padding-top: 10px
+				padding-bottom: 0
+				border: 0
+				background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9))
 
 .border
 	box-sizing: border-box
-	padding: 8px
+	padding: 5px
 	border: 5px solid rgba(255, 255, 255, 0.8)
 	box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.45)
 
@@ -33,18 +44,20 @@
 			box-shadow: inset 0 15px 5px -5px rgba(0, 0, 0, 0.2)
 
 	&__content
-		padding: 20px
+		padding: 14px
 		box-sizing: border-box
 		background-color: rgba(255, 255, 255, 0.9)
+		border: 5px solid #fff
+		border-top: 0
 
 .h1
 	//margin-bottom: 30px
-	margin-bottom: 20px
+	margin-bottom: 15px
 	text-align: center
 	//font-size: 32px
 	//font-size: 28px
 	font-size: 43px
-	line-height: 47px
+	line-height: 43px
 	//line-height: 40px
 
 	&__upper
@@ -84,13 +97,38 @@
 				transform: translateY(-50%)
 				border-radius: 50%
 
++media-breakpoint-down(xxl)
+	.screen-1
+		display: flex
+		align-items: center
+		min-height: calc(100vh - 123px)
+		max-height: 853px
+
+		&__content
+			margin-bottom: 60px
+
 +media-breakpoint-down(lg)
+	.screen-1__content
+		margin-bottom: 20px
+
 	.h1
 		font-size: 28px
 		line-height: 34px
 
-	.screen-1__content
-		margin-bottom: 30px
+	.screen-1-ul__li
+		padding-left: 45px
+
+		&::before
+			width: 35px
+			height: 35px
+
++media-breakpoint-down(md)
+	.screen-1-ul__li
+		padding-left: 35px
+
+		&::before
+			width: 25px
+			height: 25px
 
 +media-breakpoint-down(sm)
 	.h1
@@ -104,4 +142,6 @@
 			font-size: 18px
 			line-height: 22px
 
-
++media-breakpoint-down(xs)
+	.screen-1-ul__li
+		font-size: 16px

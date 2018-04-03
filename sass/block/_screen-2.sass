@@ -1,7 +1,7 @@
 /* screen-2 */
 .screen-2
 	position: relative
-	padding: 50px 0
+	padding: 20px 0 120px
 	background: #fff url("../img/screen-2-bg-car.jpg") left bottom no-repeat
 	background-size: auto 100%
 	overflow: hidden
@@ -13,7 +13,7 @@
 		left: 0
 		width: 100%
 		height: 100%
-		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(235, 236, 236, 0.3))
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(235, 236, 236, 0.1))
 
 	.container
 		position: relative
@@ -23,15 +23,15 @@
 		position: absolute
 
 		&_left
-			top: 75px
-			left: 0
+			top: 105px
+			left: 80px
 			width: 250px
 			height: auto
 
 		&_right
-			bottom: 0px
-			right: 0
-			width: 300px
+			bottom: -110px
+			right: 65px
+			width: 350px
 			height: auto
 
 	&__ul
@@ -41,7 +41,8 @@
 
 	&-ul
 		&__li
-			margin-bottom: 30px
+			margin-bottom: 5px
+			width: 85%
 			font-size: 19px
 			line-height: 24px
 			font-weight: 700
@@ -50,8 +51,8 @@
 		&__img
 			display: flex
 			align-items: center
-			margin-right: 15px
-			width: 60px
+			margin: 0 -10px auto 0
+			width: 90px
 			img
 				display: block
 				width: 100%
@@ -64,7 +65,7 @@
 	margin: 0 auto 40px
 	text-align: center
 	font-size: 32px
-	line-height: 40px
+	line-height: 36px
 	font-weight: 700
 
 	&__upper
@@ -72,6 +73,14 @@
 
 	&__blue
 		color: #0f5b83
+
+.screen-2
+	.h2
+		font-size: 37px
+
+		&__upper
+			font-size: 48px
+
 
 +media-breakpoint-down(xl)
 	.screen-2
@@ -81,18 +90,32 @@
 	.screen-2
 		background-position: -200px
 
+		&-ul
+			&__li
+				margin-bottom: 10px
+			&__img
+				width: 70px
+
 		.img-absolute
 			&_left
+				left: 0
 				width: 200px
 			&_right
+				right: 0
 				width: 250px
 
 +media-breakpoint-down(md)
-	.h2
-		font-size: 26px
-		line-height: 30px
-
 	.screen-2
+		padding: 30px 0 50px
+		background-position: left -250px center
+
+		.h2
+			font-size: 26px
+			line-height: 30px
+			&__upper
+				font-size: 36px
+				line-height: 36px
+
 		&-ul
 			&__li
 				margin-bottom: 20px
@@ -100,28 +123,48 @@
 				line-height: 22px
 
 			&__img
-				width: 45px
+				margin-right: 5px
+				width: 60px
+
+		.img-absolute
+
+			&_left
+				left: 0
+				width: 150px
+
+			&_right
+				right: 0
+				bottom: -30px
+				width: 250px
+
++media-breakpoint-down(sm)
+	.screen-2
+		padding: 30px 0 30px
+		background-position: left -340px center
+
+		.h2
+			margin-bottom: 30px
+			font-size: 22px
+			line-height: 26px
 
 		.img-absolute
 			display: none
 
-+media-breakpoint-down(sm)
-	.h2
-		margin-bottom: 30px
-		font-size: 22px
-		line-height: 26px
-
-	.screen-2
-		background-position: -300px
-
 +media-breakpoint-down(xs)
-	.h2
-		font-size: 19px
-		line-height: 23px
-
 	.screen-2
+		background-image: none
+
+		.h2
+			font-size: 19px
+			line-height: 23px
+
+			&__upper
+				font-size: 24px
+				line-height: 28px
+
 		&-ul
 			&__li
+				width: 100%
 				font-size: 16px
 				line-height: 20px
 

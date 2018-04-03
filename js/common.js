@@ -61,6 +61,7 @@ $(function() {
 		autoplay: true,
 		autoplaySpeed: 1000,
 		arrows: false,
+		variableWidth: true,
 		responsive: [
 			{
 				breakpoint: 768,
