@@ -1,1 +1,131 @@
 /* screen-8 */
+.screen-8
+	position: relative
+	padding: 180px 0 72px
+	background: #0e5873 url("../img/screen-8-bg.jpg") center no-repeat
+	background-size: cover
+	overflow: hidden
+
+	&::before,
+	&::after
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 635px
+		height: 22px
+		background-image: url("../img/lines.png")
+		background-size: cover
+		transform: rotate(180deg)
+
+	&::after
+		top: auto
+		left: auto
+		bottom: 0
+		right: 0
+		transform: rotate(0)
+
+	.form
+		text-align: center
+
+		&-title
+			position: relative
+			padding-bottom: 20px
+			font-family: Arial
+			font-size: 21px
+			line-height: 24px
+			font-weight: 700
+			background-color: #FEBD53
+			background-image: linear-gradient(to right, #FED45A, #FDB150)
+			box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.48)
+
+			&::before
+				content: ''
+				position: absolute
+				z-index: 5
+				bottom: 0
+				left: 50%
+				padding: 5px
+				width: 40px
+				height: 40px
+				box-sizing: border-box
+				background: #fff url("../img/icon-arrow.png") center no-repeat
+				background-size: 80%
+				border-radius: 50%
+				border: 2px solid #FEC456
+				transform: translate(-50%, +50%)
+
+			div
+				font-size: 16px
+				line-height: 19px
+
+		.border
+			padding-top: 0
+			border-top: 0
+			border-width: 7px
+			border-color: #FED45A
+			border-image: linear-gradient(to right, #FED45A, #FDB150)
+			border-image-slice: 100
+			border-image-repeat: stretch
+
+			&__content
+				border-width: 7px
+				background-color: transparent
+				background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.95))
+
+		&__text
+			font-size: 17px
+			line-height: 21px
+			font-weight: 700
+
+		input[type=tel]
+			text-align: center
+
+		.btn.btn_small
+			margin: 0 auto
+			padding: 6px 2px
+			width: calc(100% - 6px)
+
+		.label-radio__icon
+			width: 15px
+
+		input[type=radio]:checked + .btn.btn_light-blue
+			box-shadow: 0 0 5px 1px #cacaca, inset 0 -21px 1px 0px transparent
+			background-image: linear-gradient(to bottom, #0E5873, #40B3DD)
+
+		input[type=radio]:checked + .btn.btn_purple
+			box-shadow: 0 0 5px 1px #cacaca, inset 0 -21px 1px 0px transparent
+			background-image: linear-gradient(to bottom, #51326B, #9357bd)
+
+		input[type=radio]:checked + .btn.btn_green
+			box-shadow: 0 0 5px 1px #cacaca, inset 0 -21px 1px 0px transparent
+			background-image: linear-gradient(to bottom, #248332, #33B046)
+
+		input[type=tel]
+			text-align: center
+
+		.btn_big
+			display: block
+			width: 100%
+
++media-breakpoint-down(lg)
+	.screen-8
+		padding: 100px 0 50px
+
++media-breakpoint-down(sm)
+	.screen-8
+		padding: 80px 0 50px
+
++media-breakpoint-down(xs)
+	.screen-8
+		padding: 50px 0 30px
+
+		&::before
+			left: -317px
+		&::after
+			right: -317px
+
+		.form__content
+			.label-radio__icon
+				display: none
+
