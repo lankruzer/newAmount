@@ -103,5 +103,24 @@ $(function() {
 	}
 	// /tabs
 
+	// fixed-link
+	ShowLinkToTop();
+	$(window).scroll(ShowLinkToTop);
+
+	function ShowLinkToTop() {
+		if( $(window).scrollTop() > $(window).height() * 1.25) {
+			$('.fixed-link').fadeIn();
+		} else {
+			$('.fixed-link').fadeOut();
+		}
+	}
+
+	//Click event to scroll to top
+	$('.fixed-link').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+	// /fixed-link
+
 
 });
