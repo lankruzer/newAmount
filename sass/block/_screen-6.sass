@@ -1,13 +1,124 @@
 /* screen-6 */
 .screen-6
+	position: relative
+	overflow: hidden
+
+	&::after
+		content: ''
+		position: absolute
+		bottom: 0
+		right: -317px
+		width: 634px
+		height: 22px
+		background-image: url("../img/lines.png")
+		background-size: cover
 
 	.h2
 		position: relative
 		z-index: 5
 		margin-bottom: 0
-		padding: 10px 0
+		padding: 12px 0
 		font-size: 37px
-		line-height: 53px
+		line-height: 47px
 		color: #fff
 		background-color: #1c426b
-		box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4)
+
+		&__upper
+			font-size: 43px
+
+	&__content
+		padding: 10px 0 50px
+		background: #f08143 url("../img/screen-6-bg.jpg") center no-repeat
+		background-size: cover
+
+	&__ul
+		margin: 0 0 15px
+		padding: 0
+		list-style: none
+
+	&-ul
+		&__li
+			position: relative
+			margin-bottom: 15px
+			min-height: 45px
+			display: flex
+			align-items: center
+			padding-left: 53px
+			box-sizing: border-box
+			font-size: 16px
+			line-height: 19px
+			font-weight: 700
+			background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0))
+			border-radius: 25px 0 0 25px
+
+			&::before
+				content: ''
+				position: absolute
+				z-index: 1
+				top: 2px
+				left: -3px
+				width: 50px
+				height: calc(100% - 4px)
+				background: url("../img/icon-mark-1.png") center no-repeat
+				background-size: contain
+
+	.form
+		position: relative
+		text-align: center
+
+		&::before
+			content: ''
+			position: absolute
+			top: 80px
+			right: 15px
+			width: 6px
+			height: 75%
+			box-shadow: 00px 0 50px 5px #fff
+
+		&-title
+			padding-bottom: 30px
+			font-size: 21px
+			line-height: 24px
+			font-weight: 700
+
+			&_dark-blue
+				background-color: #1C426B
+
+		&__text
+			font-size: 15px
+			line-height: 17px
+			font-weight: 700
+
+			.dark-green
+				font-size: 19px
+				line-height: 22px
+				font-weight: 700
+				color: #074742
+
+		input
+			text-align: center
+			font-weight: 700
+
+	.border
+		position: relative
+		padding: 0 4px 4px
+		border-color: #1C426B
+		border-width: 7px
+
+		&__content
+			position: relative
+			z-index: 1
+			padding: 28px 7px 7px
+			border-width: 7px
+			background-color: transparent
+			background-image: radial-gradient(to left bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6))
+
+	&-block-form
+		position: relative
+
+		.screen-6-img
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 350px
+			transform: translateY(50px)
